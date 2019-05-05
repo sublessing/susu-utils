@@ -10,7 +10,7 @@ ToolKit Body
             parameter
                 date ------ The time you need to convert formats.
                 format ------ The format you need.
-            support formart:
+            support formart
                 yyyy ------ fullYear
                 MM ------ month
                 dd ------ date
@@ -31,4 +31,13 @@ ToolKit Body
             Get the name of today's in week
             parameter
                 day ----- <=6 && >=0
-        
+    
+    Parameter(Processing of parameters)
+
+        formatGetSearch(str)
+            Converting search parameters in get requests to objects
+            parameter
+                str ------ required,must be a string
+            support format
+                "?key1=value1&key2=value2..."
+

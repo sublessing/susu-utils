@@ -11,9 +11,18 @@
     "javascript"
   ],
   "author": "sublessing",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "email": "15070021572@163.com"
   },
-  "homepage": "https://github.com/sublessing/susu-utils#readme"
+  "homepage": "https://github.com/sublessing/susu-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sublessing/susu-utils.git"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
