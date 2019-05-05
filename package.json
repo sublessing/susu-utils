@@ -1,6 +1,6 @@
 {
   "name": "susu-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A toolkit",
   "main": "index.js",
   "scripts": {
