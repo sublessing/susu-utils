@@ -1,0 +1,16 @@
+{
+  "name": "susu-utils",
+  "version": "1.0.0",
+  "description": "A toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["utils", "javascript"],
+  "author": "sublessing",
+  "license": "ISC",
+  "bugs": {
+    "email": "15070021572@163.com"
+  },
+  "homepage": "https://github.com/sublessing/susu-utils#readme"
+}
