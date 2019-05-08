@@ -84,3 +84,11 @@ ToolKit Body
             support format
                 "?key1=value1&key2=value2..."
 
+
+    UploadFile(File Upload Processing | Server-side usage)
+        
+        upload(Request req)
+            Receiving the Request Object, processing the uploaded file and returning the processing result.
+            parameter
+                req ------ required,Request Object
+
