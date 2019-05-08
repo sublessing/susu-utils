@@ -18,11 +18,48 @@ ToolKit Body
                 mm ------ minute
                 ss ------ second
                 ww ------ day
-        getDayOfMonth([day, month])
+        getMonth([format, month])
             Gets the date of the first and last day of the specified month.
             parameter
-                day ------ 1 or -1
+                format ------ Same support format as above
                 month ------ 0~11
+        getYear([format, year])
+            Gets the date of the first and last day of the specified year.
+            parameter
+                format ------ Same support format as above
+                year ------ all
+        getCurrentWeek([format])
+            Gets the date of the first and last day of the current week.
+            parameter
+                format ------ Same support format as above
+        getPreviousWeek([format])
+            Gets the date of the first and last day of the provious week.
+            parameter
+                format ------ Same support format as above
+        getNextWeek([format])
+            Gets the date of the first and last day of the next week.
+            parameter
+                format ------ Same support format as 
+        getDayBeforeWeek([format])
+            Gets the date of the first and last day of the week before the day.
+            parameter
+                format ------ Same support format as above
+        getDayAfterWeek([format])
+            Gets the date of the first and last day of the week after the day.
+            parameter
+                format ------ Same support format as above
+        getCurrentQuarter([format])
+            Gets the date of the first and last day of the current quarter.
+            parameter
+                format ------ Same support format as above
+        getPreviousQuarter([format])
+            Gets the date of the first and last day of the previous quarter.
+            parameter
+                format ------ Same support format as above
+        getNextQuarter([format])
+            Gets the date of the first and last day of the next quarter.
+            parameter
+                format ------ Same support format as above
         zero(number)
             If the input parameter is less than 10, it will be converted to two digits.
             parameter
@@ -31,6 +68,7 @@ ToolKit Body
             Get the name of today's in week
             parameter
                 day ----- <=6 && >=0
+    
     
     Parameter(Processing of parameters)
 
