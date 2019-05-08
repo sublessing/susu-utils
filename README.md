@@ -6,6 +6,16 @@ ToolKit Body
 
     Timer(A collection of shortcuts for time classes)
 
+        Timer.zero(number)
+            If the input parameter is less than 10, it will be converted to two digits.
+            parameter
+                number ------ Must be a number
+        Timer.weekName(day)
+            Gets the name of today's in week
+            parameter
+                day ----- <=6 && >=0
+
+
         timeFormat([date, format])
             parameter
                 date ------ The time you need to convert formats.
@@ -61,15 +71,9 @@ ToolKit Body
             Gets the date of the first and last day of the next quarter.
             parameter
                 format ------ Same support format as above
-        zero(number)
-            If the input parameter is less than 10, it will be converted to two digits.
-            parameter
-                number ------ Must be a number
-        weekName(day)
-            Get the name of today's in week
-            parameter
-                day ----- <=6 && >=0
     
+    
+
     
     Parameter(Processing of parameters)
 
