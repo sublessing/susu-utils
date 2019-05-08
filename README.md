@@ -18,11 +18,12 @@ ToolKit Body
                 mm ------ minute
                 ss ------ second
                 ww ------ day
-        getMonth([format, month])
+        getMonth([format, month, year])
             Gets the date of the first and last day of the specified month.
             parameter
                 format ------ Same support format as above
                 month ------ 0~11
+                year ------ all
         getYear([format, year])
             Gets the date of the first and last day of the specified year.
             parameter
