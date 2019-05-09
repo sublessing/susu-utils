@@ -85,10 +85,16 @@ ToolKit Body
                 "?key1=value1&key2=value2..."
 
 
-    UploadFile(File Upload Processing | Server-side usage)
+    Currency(Formatting Currency and Unformatting Currency)
         
-        upload(Request req)
-            Receiving the Request Object, processing the uploaded file and returning the processing result.
+        Currency.formatCurrency(money)
+            Formatting Currency
+            Keep the last two decimal points
+            The preservation method is interception
             parameter
-                req ------ required,Request Object
+                money ------ string or number
+        Currency.unformatCurrency(money)
+            Unformatting Currency
+            parameter
+                money ------ string or number
 
