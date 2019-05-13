@@ -1,8 +1,8 @@
-Introduction
+## Introduction
 
     susu-utils is a quick ToolKit.
 
-ToolKit Body
+## ToolKit Body
 
     Timer(A collection of shortcuts for time classes)
 
@@ -98,3 +98,50 @@ ToolKit Body
             parameter
                 money ------ string or number
 
+
+    Determine(Determine what type of value is it)
+
+        isArray(val)
+            Determine if a value is an Array
+            parameter
+                val ------ all
+        isArrayBuffer(val)
+            Determine if a value is an ArrayBuffer
+            parameter
+                val ------ all
+        isFormData(val)
+            Determine if a value is an FormData
+            parameter
+                val ------ all
+        isString(val)
+            Determine if a value is an String
+            parameter
+                val ------ all
+        isNumber(val)
+            Determine if a value is an Number
+            parameter
+                val ------ all
+        isUndefined(val)
+            Determine if a value is an Undefined
+            parameter
+                val ------ all
+        isObject(val)
+            Determine if a value is an Object
+            parameter
+                val ------ all
+        isDate(val)
+            Determine if a value is an Date
+            parameter
+                val ------ all
+        isFile(val)
+            Determine if a value is an File
+            parameter
+                val ------ all
+        isBlob(val)
+            Determine if a value is an Blob
+            parameter
+                val ------ all
+        isFunction(val)
+            Determine if a value is an Function
+            parameter
+                val ------ all
