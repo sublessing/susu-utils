@@ -101,47 +101,47 @@
 
     Determine(Determine what type of value is it)
 
-        isArray(val)
+        Determine.isArray(val)
             Determine if a value is an Array
             parameter
                 val ------ all
-        isArrayBuffer(val)
+        Determine.isArrayBuffer(val)
             Determine if a value is an ArrayBuffer
             parameter
                 val ------ all
-        isFormData(val)
+        Determine.isFormData(val)
             Determine if a value is an FormData
             parameter
                 val ------ all
-        isString(val)
+        Determine.isString(val)
             Determine if a value is an String
             parameter
                 val ------ all
-        isNumber(val)
+        Determine.isNumber(val)
             Determine if a value is an Number
             parameter
                 val ------ all
-        isUndefined(val)
+        Determine.isUndefined(val)
             Determine if a value is an Undefined
             parameter
                 val ------ all
-        isObject(val)
+        Determine.isObject(val)
             Determine if a value is an Object
             parameter
                 val ------ all
-        isDate(val)
+        Determine.isDate(val)
             Determine if a value is an Date
             parameter
                 val ------ all
-        isFile(val)
+        Determine.isFile(val)
             Determine if a value is an File
             parameter
                 val ------ all
-        isBlob(val)
+        Determine.isBlob(val)
             Determine if a value is an Blob
             parameter
                 val ------ all
-        isFunction(val)
+        Determine.isFunction(val)
             Determine if a value is an Function
             parameter
                 val ------ all
