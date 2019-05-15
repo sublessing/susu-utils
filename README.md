@@ -77,12 +77,21 @@
     
     Parameter(Processing of parameters)
 
-        formatGetSearch(str)
+        Parameter.formatGetSearch(str)
             Converting search parameters in get requests to objects
             parameter
                 str ------ required,must be a string
             support format
                 "?key1=value1&key2=value2..."
+        Parameter.humpToUnderline
+            Convert hump-like words into underlined conjunctions
+            parameter
+                str ------ required,must be a string
+        Parameter.underlineToHump
+            Convert underlined words to hump
+            parameter
+                str ------ required,must be a string
+
 
 
     Currency(Formatting Currency and Unformatting Currency)
